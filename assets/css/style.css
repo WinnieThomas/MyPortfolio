@@ -75,7 +75,9 @@ What is it doing here?
 We are making the product card not growable, not shrinkable, and with an initial length of 400px 
 */
 .card {
-  
+  border:solid;
+  border-radius: 5px;
+  padding: 20px;
   flex: 0 0 400px;
 }
 
